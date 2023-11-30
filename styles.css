@@ -1,103 +1,54 @@
-/* styles-enhanced-comment-box.css */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-  }
-  
-  .comment-box {
-    max-width: 600px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    display: flex;
-    border-radius: 8px;
-    transition: background-color 0.5s, color 0.5s, box-shadow 0.5s;
-  }
-  
-  .comment-content {
-    flex: 1;
-    margin-left: 15px;
-  }
-  
-  .comment-meta {
-    font-size: 0.8em;
-    color: #777;
-  }
-  
-  .date {
-    font-weight: bold;
-  }
-  
-  .comment-text {
-    margin-top: 10px;
-  }
-  
-  .featured-image {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-top: 15px;
-  }
-  
-  .social-share {
-    margin-top: 20px;
-  }
-  
-  .share-button {
-    display: inline-block;
-    margin-right: 10px;
-    padding: 8px 15px;
-    background-color: #007bff;
+}
+
+header {
+    background-color: #333;
     color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
     text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-  }
-  
-  .share-button:hover {
-    background-color: #0056b3;
-  }
-  
-  .avatar {
+    color: #fff;
+}
+
+.avatar {
     width: 50px;
     height: 50px;
     border-radius: 50%;
   }
-  
+ 
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
   /* Dark mode styles */
   body.dark-mode {
     background-color: #1a1a1a;
     color: #fff;
   }
-  
-  .comment-box.dark-mode {
-    background-color: #333;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
-  }
-  
-  .comment-meta.dark-mode,
-  .comment-text.dark-mode,
-  .social-share.dark-mode {
-    color: #aaa;
-  }
-  
-  .date.dark-mode {
-    font-weight: normal;
-  }
-  
-  .featured-image.dark-mode {
-    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
-  }
-  
-  .share-button.dark-mode {
-    background-color: #444;
-  }
-  
-  .share-button.dark-mode:hover {
-    background-color: #333;
-  }
-  
+ 
